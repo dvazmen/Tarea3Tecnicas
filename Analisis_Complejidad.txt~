@@ -1,0 +1,23 @@
+Diego Vázquez
+A01168095
+
+
+------------------Análisis de Complejidad------------------------------
+
+
+
+-----------------Problema 1-----------
+
+Para el problema de calcular la necesidad de gasolina basándose en la capacidad de un tanque la complejidad es lineal (n). El algoritmo es ávido y solamente requiere de un ciclo para recorrer el vector en el que están almacenadas las distancias entre gasolineras.
+
+-----------------Problema 2-----------
+
+Este problema tiene 
+
+-----------------Problema 3-----------
+
+El problema 3 ocupa programación dinámica y tiene una complejidad de (n*m). El algoritmo almacena datos en una matriz para no repetir cálculos. La ventaja de hacerlo así es que los accesos a memoria son en tiempo constante. Por lo que la complejidad de leer la matriz generada es de (n+m).
+
+-----------------Problema 4----------
+
+Este problema se resuelve mediante backtracking y es de complejidad cuadrática (n^2). El algoritmo requiere de dos ciclos anidados para recorrer las matrices en las que se tienen las preferencias de las personas. 
